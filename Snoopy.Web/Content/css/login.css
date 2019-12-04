@@ -1,6 +1,6 @@
-.vbox {
-	margin: auto;
-	max-width: 320px
+.layui-container {
+    margin: auto;
+    max-width: 320px
 }
 
 .otherlogin {
