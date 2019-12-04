@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Snoopy.Web", "Snoopy.Web\Snoopy.Web.vbproj", "{C67FBD9D-1DE4-4B36-8250-41F13050B6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snoopy.Common", "Snoopy.Common\Snoopy.Common.csproj", "{6ADFDFC3-C4D3-48B2-83F0-50E17437C03B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C67FBD9D-1DE4-4B36-8250-41F13050B6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67FBD9D-1DE4-4B36-8250-41F13050B6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67FBD9D-1DE4-4B36-8250-41F13050B6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67FBD9D-1DE4-4B36-8250-41F13050B6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADFDFC3-C4D3-48B2-83F0-50E17437C03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADFDFC3-C4D3-48B2-83F0-50E17437C03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADFDFC3-C4D3-48B2-83F0-50E17437C03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADFDFC3-C4D3-48B2-83F0-50E17437C03B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5AB1F49-664B-4A54-8D6E-63510EEC9697}
+	EndGlobalSection
+EndGlobal
