@@ -5,12 +5,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>登陆 Snoopy</title>
     <%--<link rel="stylesheet" href="https://code.bdstatic.com/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />--%>
     <link href="../Content/layui/css/layui.css" rel="stylesheet" />
     <link rel="icon" href="../Content/img/see_no_evil_monkey.ico" type="images/x-ico" />
     <link href="../Content/css/login.css" rel="stylesheet" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
     <script src="../Content/layui/layui.all.js"></script>
     <script src="../Content/js/console.js"></script>
 </head>
@@ -18,7 +20,7 @@
     <div class="layui-container">
         <div class="lbHead">
             <a href="#">
-                <img src="../Content/img/see_no_evil_monkey.svg" width="64" height="64" alt="Midada" /></a>
+                <img src="../Content/img/see_no_evil_monkey.svg" width="64" height="64" alt="Monkey" /></a>
             <p class="aa">Sign in to Snoopy</p>
         </div>
         <div class="card-body">
