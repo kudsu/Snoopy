@@ -10,33 +10,6 @@
     <link href="../Content/layui/css/layui.css" rel="stylesheet" />
     <link rel="icon" href="../Contentimg/see_no_evil_monkey.ico" type="images/x-ico" />
     <link href="../Content/css/login.css" rel="stylesheet" />
-    <style type="text/css">
-        .auto-style2 {
-            position: relative;
-            float: left;
-            display: block;
-            width: 164px;
-            font-weight: 400;
-            line-height: 20px;
-            text-align: right;
-            left: -3px;
-            top: 2px;
-            padding: 9px 15px;
-        }
-
-        .auto-style3 {
-            position: relative;
-            float: left;
-            display: block;
-            width: 57px;
-            font-weight: 400;
-            line-height: 20px;
-            text-align: right;
-            left: 0px;
-            top: 0px;
-            padding: 9px 15px;
-        }
-    </style>
 </head>
 <body>
     <div class="layui-container">
