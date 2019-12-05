@@ -5,34 +5,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆 Snoopy</title>
     <%--<link rel="stylesheet" href="https://code.bdstatic.com/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />--%>
     <link href="../Content/layui/css/layui.css" rel="stylesheet" />
-    <link rel="icon" href="../Contentimg/see_no_evil_monkey.ico" type="images/x-ico" />
+    <link rel="icon" href="../Content/img/see_no_evil_monkey.ico" type="images/x-ico" />
     <link href="../Content/css/login.css" rel="stylesheet" />
+    <script src="../Content/layui/layui.all.js"></script>
 </head>
 <body>
     <div class="layui-container">
-        <div class="layui-row">
-            <div class="layui-col-md3">
-                <a href="#">
-                    <img src="../Content/img/see_no_evil_monkey.svg" width="64" height="64" alt="Midada" /></a>
-            </div>
-        </div>
-
-        <div class="my-4 text-center">
-            <h4>Sign in to Midada</h4>
+        <div class="lbHead">
+            <a href="#">
+                <img src="../Content/img/see_no_evil_monkey.svg" width="64" height="64" alt="Midada" /></a>
+            <p class="aa">Sign in to Snoopy</p>
         </div>
         <div class="card-body">
             <form action="/account/login" method="post">
-                <label class="layui-form-label">Account</label>
+                <label class=" layui-form-label inputlb">Username or email address</label>
                 <div class="layui-form-item">
-                    <input type="text" name="title" required lay-verify="required" lay-reqtext="用户名是必填项，岂能为空？" placeholder="Username or email address" autocomplete="off" class="layui-input" />
+                    <input type="text" name="title" required lay-verify="required" lay-reqtext="用户名是必填项，岂能为空？" placeholder="kudsu@qq.com" autocomplete="off" class="layui-input" />
                 </div>
 
-                <label class="layui-form-label">Password</label>
+                <label class="layui-form-label inputlb">Password</label>
                 <div class="layui-form-item">
-                    <input type="text" name="title" required lay-verify="required" placeholder="*********" autocomplete="off" class="layui-input" />
+                    <input type="password" name="title" required lay-verify="required" placeholder="*********" autocomplete="off" class="layui-input" />
                 </div>
                 <button type="submit" class="layui-btn layui-btn-fluid">Sign in</button>
             </form>
@@ -53,13 +50,15 @@
                     <img src="../Content/img/microsoft.svg" title="Microsoft" />
                 </a>
             </div>
-            <div class="otherlogin">
-                <a class="mx-2" href="/mix/terms">条款</a>
-                <a class="mx-2" href="https://ss.netnr.com/contact">联系</a>
-                |
-				<a class="mx-2" href="/">首页</a>
-                <a class="mx-2" href="/account/register">注册</a>
-            </div>
+
+        </div>
+        <div class="otherlogin">
+            <a class="mx-2" href="/mix/terms">条款</a>
+            <a class="mx-2" href="https://ss.netnr.com/contact">联系</a>
+            |
+			
+                <a class="mx-2" href="/">首页</a>
+            <a class="mx-2" href="/account/register">注册</a>
         </div>
     </div>
 </body>
