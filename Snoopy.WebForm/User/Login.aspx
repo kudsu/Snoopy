@@ -12,6 +12,7 @@
     <link rel="icon" href="../Content/img/see_no_evil_monkey.ico" type="images/x-ico" />
     <link href="../Content/css/login.css" rel="stylesheet" />
     <script src="../Content/layui/layui.all.js"></script>
+    <script src="../Content/js/console.js"></script>
 </head>
 <body>
     <div class="layui-container">
