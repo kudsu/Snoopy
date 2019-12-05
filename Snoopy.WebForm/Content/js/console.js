@@ -1,15 +1,27 @@
 ﻿/*
- * netnr
- * 2019-09-29
+ * kudsu
+ * 2019-12-6 00:16:40
  */
-
+hitokoto();
+function hitokoto() {
+    $.ajax({
+        type: "GET",
+        url: "https://hitokoto.jijidown.com/v1/api/hitokoto?maxlength=80",
+        data: {},
+        dataType: "json",
+        success: function (data) {
+            //alert(data.hitokoto);
+            console.log(data.hitokoto + "《" + data.source+"》");
+        }
+    });
+}
 if (console) {
 
     var outs = [], fi = function () { return { msg: "", style: "" } };
 
     var oi = fi();
     oi.msg = "才雨又晴晴又雨";
-    oi.style = "padding:10px 40px 10px;line-height:50px;background:url('https://www.netnr.com/favicon.svg') no-repeat;background-size:15% 100%;font-size:1.8rem;color:#009a61";
+    oi.style = "padding:10px 40px 10px;line-height:50px;background:url('http://q21r61pqz.bkt.clouddn.com/see_no_evil_monkey.svg') no-repeat;background-size:15% 100%;font-size:1.8rem;color:rgba(184, 149, 88)";
     outs.push(oi);
 
     oi = fi();
@@ -18,7 +30,7 @@ if (console) {
     outs.push(oi);
 
     oi = fi();
-    oi.msg = "\r\n婧愮爜锛歕r\nhttps://github.com/netnr/blog\r\n\r\nGitHub锛歕r\nhttps://github.com/netnr\r\n\r\n鐮佷簯锛歕r\nhttps://gitee.com/netnr\r\n\r\nQ缇わ細83084426";
+    oi.msg = "\r\n源码：\nhttps://github.com/netnr/blog\r\n\r\nGitHub：\nhttps://github.com/netnr\r\n\r\n博客园：\nhttps://gitee.com/netnr\r\n";
     outs.push(oi);
 
     if (!("ActiveXObject" in window)) {
@@ -27,3 +39,5 @@ if (console) {
         });
     }
 }
+
+
