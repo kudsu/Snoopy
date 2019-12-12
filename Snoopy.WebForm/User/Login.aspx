@@ -43,7 +43,7 @@
                 <a href="/account/auth/weibo">
                     <img src="../Content/img/weibo.svg" title="微博" />
                 </a>
-                <a href="/account/auth/github">
+                <a href="https://github.com/login/oauth/authorize?client_id=384b8716d358d8e0f696&state=STATE&redirect_uri=https://localhost:44315/User/Login.aspx">
                     <img src="../Content/img/github.svg" title="GitHub" />
                 </a>
                 <a href="/account/auth/taobao">

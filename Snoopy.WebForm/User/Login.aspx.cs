@@ -1,4 +1,5 @@
 ﻿
+using Snoopy.Login;
 using System;
 namespace Snoopy.WebForm.User
 {
@@ -9,7 +10,8 @@ namespace Snoopy.WebForm.User
             string code = Request.QueryString["code"] + "";
             if (code!="")
             {
-                //tyLogin.CallLogin("GitHub", code);
+               code=  LoginHelper.CallLogin("GitHub", code);
+                Response.Write(code);
             }
             
         }
