@@ -417,12 +417,6 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Snoopy.Login\Snoopy.Login.csproj">
-      <Project>{83e44ea6-e4b9-4af1-8f33-0cf844cf3329}</Project>
-      <Name>Snoopy.Login</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
