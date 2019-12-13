@@ -13,7 +13,7 @@ namespace Snoopy.WebForm.User
                code=  LoginHelper.CallLogin("GitHub", code);
                 Response.Write(code);
             }
-            
+            string ver=Environment.Version.ToString();
         }
     }
 }
