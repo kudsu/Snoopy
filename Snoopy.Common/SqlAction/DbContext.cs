@@ -19,7 +19,7 @@ namespace Snoopy.Common.SqlAction
             });
         }
         //注意：不能写成静态的
-        public SqlSugarClient Db;//用来处理事务多表查询和复杂的操作
+        public SqlSugarClient Db;//用来处理事务多表查询和复杂的操作 
         public SimpleClient<T> CurrentDb { get { return new SimpleClient<T>(Db); } }//用来处理T表的常用操作  
     }
 
